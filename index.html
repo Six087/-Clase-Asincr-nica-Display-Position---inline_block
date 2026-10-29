@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Display y Position</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="barra">
+            <a href="">Inicio</a>
+            <a href="">Materias</a>
+            <a href="">Contacto</a>
+        </nav>
+
+        <section class="contenedor">
+            <h1>Materias de la carrera</h1>
+
+            <div class="tarjeta">
+                <span class="insignia">NUEVO</span>
+                <h3>Programación II</h3>
+                <p>Clases, objetos y estructuras de datos con Python.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Base de Datos</h3>
+                <p>Modelado de datos y consultas con SQL.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Desarrollo Web</h3>
+                <p>HTML, CSS y JavaScript para armar páginas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Sistemas Operativos</h3>
+                <p>Procesos, memoria y archivos de un sistema.</p>
+            </div>
+        </section>
+
+        <section class="informacion">
+            <h2>Sobre esta maqueta</h2>
+            <p>La barra de navegación de arriba tiene position: fixed, por eso se queda en el mismo lugar de la ventana aunque se haga scroll.</p>
+            <p>Cada tarjeta tiene position: relative. La insignia NUEVO tiene position: absolute, y se ubica respecto a la tarjeta que la contiene, en la esquina superior derecha.</p>
+            <p>Las tarjetas usan display: inline-block para quedar una al lado de la otra y poder usar width, height y márgenes.</p>
+            <p>Este texto está acá abajo para que la página sea lo bastante larga como para hacer scroll y comprobar que la barra no se mueve.</p>
+            <p>Si se cambia display: inline-block por display: block en las tarjetas, cada una ocupa su propia línea y quedan una debajo de la otra.</p>
+        </section>
+    </body>
+</html>

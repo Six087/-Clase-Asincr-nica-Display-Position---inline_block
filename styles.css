@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+}
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1e293b;
+    z-index: 10;
+}
+.barra a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+}
+.barra a:hover {
+    background-color: #334155;
+}
+.contenedor {
+    width: 900px;
+    min-height: 700px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.contenedor h1 {
+    color: #38bdf8;
+    font-size: 26px;
+}
+.tarjeta {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 160px;
+    margin: 10px;
+    height: 110px;
+    padding: 40px 15px 20px 15px;
+    background-color: #1e293b;
+    border-radius: 8px;
+}
+.tarjeta h3 {
+    color: white;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.tarjeta p {
+    color: #94a3b8;
+    font-size: 14px;
+    margin: 0;
+}
+.insignia {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ef4444;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+.informacion {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 10px 60px 10px;
+}
+.informacion h2 {
+    color: white;
+    font-size: 20px;
+}
+.informacion p {
+    color: #cbd5e1;
+    font-size: 15px;
+    line-height: 1.6;
+}
